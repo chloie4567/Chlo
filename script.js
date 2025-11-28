@@ -8,4 +8,3 @@ document.getElementById('change-color-btn').addEventListener('click', function()
                     });
 
                     
-})
