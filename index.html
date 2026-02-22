@@ -1,38 +1,136 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
-        <title>My Profile</title>
-        </head>
-        <body>
-          <div class="">
-              <img src="https://uploads.onecompiler.io/444jt3myh/445m2axr2/1000023595.jpg" alt="Profile Avatar" class="avatar">
-                  <h1 id="name">Chloie Baylon Marañon</h1>
-                      <p id="bio">Hi, my name is Chloie Marañon BSIT 1A. I'm 19 years old. I live in Sipalay City, Negros Occidental. I'm the youngest of three siblings. I graduated from Gil Montilla National High School in 2024-2025. I'm currently studying and enjoying learning about new things. In my free time, I love exploring local places, trying new foods, and spending time with family and friends.</p>
-                          <h2>My Hobbies</h2>
-                              <ul id="hobbies-list">
-                                    <li>Reading</li>
-                                          <li>Dancing</li>
-                                                <li>Traveling</li>
-                                                      <li>Play Online Games</li>
-                                                          </ul>
-                                                              <button id="change-color-btn">Click me!</button>
-                                                                  <div id="learned" style="display: none;">
-                                                                        <h2>What I've Learned</h2>
-                                                                              <p>I've learned a lot about web development, such as how to use:</p>
-                                                                                    <ul>
-                                                                                            <li><strong>HTML (Hypertext Markup Language)</strong>: used for structuring and creating content on the web, using tags like &lt;p&gt;, &lt;h1&gt;, &lt;img&gt;, etc.</li>
-                                                                                                    <li><strong>CSS (Cascading Style Sheets)</strong>: used for designing and styling web pages, making them visually appealing and user-friendly.</li>
-                                                                                                            <li><strong>JavaScript</strong>: used for adding interactivity to web pages, creating animations, and enhancing user experience.</li>
-                                                                                                                  </ul>
-                                                                                                                      </div>
-                                                                                                                          <h2>Contact Me</h2>
-                                                                                                                              <p><strong>Phone:</strong> <a href="tel:+639537220164">+639537220164</a></p>
-                                                                                                                                </div>
-                                                                                                                                  <script src="script.js"></script>
-                                                                                                                                  </body>
-                                                                                                                                  </html>
+    <title>Chloie Baylon Marañon | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="logo">CM<span>.</span></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn" id="menuBtn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
 
-                                                                                                                                
+    <!-- HOME SECTION -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Chloie Baylon Marañon</span></h1>
+            <h2>BSIT 1A Student</h2>
+            <p>Passionate about learning new technologies and creating meaningful digital experiences.</p>
+            <a href="#about" class="btn">Know More About Me</a>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-github"></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="circle"></div>
+            <img src="https://uploads.onecompiler.io/444jt3myh/445m2axr2/1000023595.jpg" alt="Chloie Marañon" class="avatar">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="https://uploads.onecompiler.io/444jt3myh/445m2axr2/1000023595.jpg" alt="Chloie Marañon">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <h3>BSIT 1A Student | Age 19</h3>
+            <p>I live in Sipalay City, Negros Occidental, and I'm the youngest of three siblings. I graduated from Gil Montilla National High School in 2024-2025.</p>
+            <p>Currently, I'm pursuing my Bachelor of Science in Information Technology and enjoying every moment of learning new things. In my free time, I love exploring local places, trying new foods, and spending quality time with my family and friends.</p>
+            <a href="#" class="btn">Download My Info</a>
+        </div>
+    </section>
+
+    <!-- HOBBIES SECTION -->
+    <section id="hobbies" class="hobbies">
+        <div class="section-title">
+            <h2>My <span>Hobbies</span></h2>
+        </div>
+        <div class="hobbies-grid">
+            <div class="hobby-card">
+                <i class="fa fa-book"></i>
+                <h3>Reading</h3>
+                <p>Exploring different worlds through books and expanding my imagination.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="fa fa-music"></i>
+                <h3>Dancing</h3>
+                <p>Expressing myself through movement and enjoying the rhythm of music.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="fa fa-plane"></i>
+                <h3>Traveling</h3>
+                <p>Discovering new places, cultures, and creating unforgettable memories.</p>
+            </div>
+            <div class="hobby-card">
+                <i class="fa fa-gamepad"></i>
+                <h3>Online Games</h3>
+                <p>Having fun and connecting with friends through interactive gaming experiences.</p>
+            </div>
+        </div>
+        <button id="change-color-btn" class="btn hobby-btn">Click to Change Theme!</button>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Contact <span>Me</span></h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <div class="contact-item">
+                    <i class="fa fa-map-marker"></i>
+                    <p>Sipalay City, Negros Occidental, Philippines</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa fa-phone"></i>
+                    <p><a href="tel:+639537220164">+63 953 722 0164</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:chloie.maranon@example.com">chloie.maranon@example.com</a></p>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Chloie Baylon Marañon</h3>
+            <p>BSIT 1A Student | Passionate Learner & Creator</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-tiktok"></i></a>
+            </div>
+        </div>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
