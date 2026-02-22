@@ -1,4 +1,6 @@
- * {
+body
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +8,7 @@
     scroll-behavior: smooth;
 }
 
-:root {
+:root{
     --primary-color: #ff6b9d;
     --secondary-color: #1a1a2e;
     --text-color: #333;
@@ -347,4 +349,5 @@ body.dark-theme {
     margin-right: 15px;
     width: 40px;
     height: 4
+}
         
