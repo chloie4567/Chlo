@@ -1,42 +1,48 @@
-body {
-      font-family: Arial, sans-serif;
-        background-color: lightblue;
-          display: flex;
-            justify-content: center;
-              align-items: center;
-                height: 100vh;
-                  margin: 0;
-                  }
+@media (max-width: 768px) {
+    .menu-btn {
+        display: block;
+    }
 
-                  .container {
-                    background-color: #fff;
-                      padding: 20px;
-                        border-radius: 10px;
-                          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                            text-align: center;
-                              width: 300px;
-                              }
+    .nav-links {
+        position: fixed;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--secondary-color);
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+        transition: top 0.3s ease;
+    }
 
-                              .avatar {
-                                width: 100px;
-                                  height: 100px;
-                                    border-radius: 50%;
-                                      border: 2px solid #333;
-                                        margin-bottom: 20px;
-                                        }
+    .nav-links.active {
+        top: 70px;
+    }
 
-                                        #change-color-btn {
-                                          background-color: #4CAF50;
-                                            color: #fff;
-                                              padding: 10px 20px;
-                                                border: none;
-                                                  border-radius: 5px;
-                                                    cursor: pointer;
-                                                      margin: 20px;
-                                                      }
+    .nav-links li {
+        margin: 15px 0;
+    }
 
-                                                      #change-color-btn:hover {
-                                                        background-color: #3e8e41;
-                                                        }
-                                                        
-}
+    .home {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
